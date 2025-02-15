@@ -79,6 +79,11 @@ public class Array
 	// You are not required to deal with three digit numbers.
 	public void printDouble(int[][] a)
     {
-	
+		for (int i = 0; i < a.length; i++) {
+			for (int j = 0; j < a[i].length; j++) {
+				System.out.printf("%2d ", a[i][j]);
+			}
+			System.out.println(); 
+		}
 	}
 }
